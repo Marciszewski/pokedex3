@@ -12,6 +12,7 @@
 		FA90C0E31EE88A2600B1087F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA90C0E11EE88A2600B1087F /* Main.storyboard */; };
 		FA90C0E51EE88A2600B1087F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA90C0E41EE88A2600B1087F /* Assets.xcassets */; };
 		FA90C0E81EE88A2600B1087F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA90C0E61EE88A2600B1087F /* LaunchScreen.storyboard */; };
+		FA9F8A841F169D3E00812AA6 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = FA9F8A831F169D3E00812AA6 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA90C0E41EE88A2600B1087F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA90C0E71EE88A2600B1087F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA90C0E91EE88A2600B1087F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9F8A831F169D3E00812AA6 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				FA90C0DF1EE88A2600B1087F /* ViewController.swift */,
 				FA90C0E11EE88A2600B1087F /* Main.storyboard */,
 				FA90C0E41EE88A2600B1087F /* Assets.xcassets */,
+				FA9F8A831F169D3E00812AA6 /* pokemon.csv */,
 				FA90C0E61EE88A2600B1087F /* LaunchScreen.storyboard */,
 				FA90C0E91EE88A2600B1087F /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				FA90C0E81EE88A2600B1087F /* LaunchScreen.storyboard in Resources */,
 				FA90C0E51EE88A2600B1087F /* Assets.xcassets in Resources */,
+				FA9F8A841F169D3E00812AA6 /* pokemon.csv in Resources */,
 				FA90C0E31EE88A2600B1087F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				FA90C0EE1EE88A2600B1087F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
