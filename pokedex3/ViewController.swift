@@ -143,10 +143,8 @@ class ViewController: UIViewController,  UICollectionViewDelegate, UICollectionV
         }
     }
     
-    func searchBarResultsListButtonClicked(_ searchBar: UISearchBar) {
-        
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         view.endEditing(true)
-        
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
@@ -155,7 +153,7 @@ class ViewController: UIViewController,  UICollectionViewDelegate, UICollectionV
             
             inSearchMode = false
             collection.reloadData()
-            view.endEditing(ture)
+            view.endEditing(true)
             
             
         }else {
